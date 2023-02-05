@@ -1,14 +1,11 @@
 package ru.demchuk.kino.View
 
+
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.widget.*
 import android.widget.AdapterView.OnItemClickListener
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.TextView
-import android.widget.Toast
-import androidx.core.view.get
 import androidx.lifecycle.Observer
 import org.json.JSONArray
 import org.json.JSONObject

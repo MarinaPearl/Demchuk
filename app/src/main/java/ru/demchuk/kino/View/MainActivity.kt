@@ -42,7 +42,6 @@ class MainActivity : Activity() {
     }
 
     fun onClickStart(view: View) {
-        println("bbbbbbbbbbbbbbbbbbbbbb")
         val intent = Intent(this, Top100Films::class.java)
         startActivity(intent)
     }
